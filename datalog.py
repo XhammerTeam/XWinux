@@ -41,7 +41,7 @@ d6 = random.choice(c1)
 d7 = random.choice(c1)
 d8 = random.choice(c1)
 
-c2 = ["@gmail.com","@hotmail.com","@yahoo.com"]
+c2 = ["@gmail.com","@gmail.com","@gmail.com","@hotmail.com","@yahoo.com"]
 
 b9 = random.choice(c2)
 
@@ -59,7 +59,8 @@ e8=(random.randint(100000000000, 999999999999))
 e9=(random.randint(1111111111111111, 9999999999999999))
 e10=(random.randint(12, 16))
 e11=(random.randint(7, 12))
-
+e12=(random.randint(1111111111111111, 9999999999999999))
+e13=(random.randint(1111111111111111, 9999999999999999))
 
 print ("Message Count: ",e1)
 print ("Call Count: ",e2)
@@ -72,3 +73,5 @@ print ("Windows Version: ",e11)
 print ("Location: ",e7)
 print ("Picture Of Browser: ",e8,".png")
 print ("Credit Card Number: ",e9)
+print ("Mom's Card Number: ",e12)
+print ("Dad's Card Number: ",e13)
