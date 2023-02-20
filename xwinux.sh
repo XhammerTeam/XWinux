@@ -44,7 +44,7 @@ fi
 
 tools() {
 printf "[01] Data Logger \n"
-printf "[02] Empty \n"
+printf "[02] Ddos Tool \n"
 printf "[03] Empty \n"
 printf "[04] Empty \n"
 printf "[05] Empty \n"
@@ -119,6 +119,11 @@ exit
 tool1() {
 clear
 python datalog.py
+}
+
+tool2() {
+clear
+python3 hammer.py
 }
 
 end() {
